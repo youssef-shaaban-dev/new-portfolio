@@ -131,7 +131,7 @@ export default function ProjectsGrid() {
   }, { scope: containerRef });
 
   return (
-    <section ref={containerRef} className="w-full min-h-screen bg-zinc-950 py-32 px-6 md:px-12 overflow-hidden relative">
+    <section ref={containerRef} className="w-full min-h-screen bg-background py-32 px-6 md:px-12 overflow-hidden relative">
       
       {/* Structural Grid Lines (Faint Aesthetic) */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:6rem_6rem] pointer-events-none" />

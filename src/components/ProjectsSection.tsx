@@ -117,7 +117,7 @@ export default function ProjectsSection() {
   return (
     <section
       ref={containerRef}
-      className="w-full py-28 md:py-40 px-4 md:px-12 bg-[#050505] relative overflow-hidden"
+      className="w-full py-28 md:py-40 px-4 md:px-12 bg-background relative overflow-hidden"
     >
       {/* Background ambient lighting */}
       <div className="absolute top-0 right-0 w-[800px] h-[800px] rounded-full bg-[#FF6B35]/5 blur-[250px] pointer-events-none" />
@@ -150,14 +150,14 @@ export default function ProjectsSection() {
               style={{ marginTop: i % 2 === 1 ? 'max(0px, 4rem)' : '0px' }}
             >
               {/* Image Container */}
-              <div className="relative w-full h-[280px] md:h-[350px] overflow-hidden bg-zinc-900">
+              <div className="relative w-full h-[280px] md:h-[350px] overflow-hidden bg-card">
                 <Image 
                   src={project.image}
                   alt={project.title}
                   fill
                   className="object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/40 to-transparent opacity-90 group-hover:opacity-75 transition-opacity duration-500" />
+                <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent opacity-90 group-hover:opacity-75 transition-opacity duration-500" />
                 
                 {/* Accent glow on hover */}
                 <div 

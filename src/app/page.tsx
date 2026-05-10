@@ -51,7 +51,7 @@ export default function Home() {
         {/* Footer / Contact */}
         <footer
           id="contact"
-          className="relative w-full pt-32 pb-10 overflow-hidden bg-[#020202] border-t border-white/5 flex flex-col items-center justify-center text-center z-10"
+          className="relative w-full pt-32 pb-10 overflow-hidden bg-background border-t border-white/5 flex flex-col items-center justify-center text-center z-10"
         >
           {/* Decorative glow */}
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-[#FF6B35]/10 blur-[150px] pointer-events-none rounded-full" />

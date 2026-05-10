@@ -14,7 +14,7 @@ const PANEL_COLORS = [
   "#5B2EFF", // Electric violet
   "#00D4AA", // Mint teal
   "#FF3366", // Hot pink
-  "#0A0A0A", // Final dark (site bg)
+  "#030711", // Final dark (site bg)
 ];
 
 export default function IntroLoader({ onComplete }: IntroLoaderProps) {

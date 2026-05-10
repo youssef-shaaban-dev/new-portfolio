@@ -132,7 +132,7 @@ export default function TechStackSection() {
   return (
     <section
       ref={containerRef}
-      className="w-full py-28 md:py-40 px-6 md:px-12 bg-[#0a0a0a] relative overflow-hidden"
+      className="w-full py-28 md:py-40 px-6 md:px-12 bg-background relative overflow-hidden"
     >
       {/* Ambient */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-[#5B2EFF]/5 blur-[200px] pointer-events-none" />

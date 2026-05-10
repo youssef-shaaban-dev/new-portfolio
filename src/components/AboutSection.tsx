@@ -63,7 +63,7 @@ export default function AboutSection() {
   return (
     <section
       ref={containerRef}
-      className="relative w-full bg-[#070707] py-32 md:py-48 overflow-hidden px-6 md:px-12 flex items-center"
+      className="relative w-full bg-background/95 py-32 md:py-48 overflow-hidden px-6 md:px-12 flex items-center"
     >
       {/* Ambient Light */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-5xl pointer-events-none overflow-visible z-0">
@@ -82,7 +82,7 @@ export default function AboutSection() {
 
             <div
               ref={imageRef}
-              className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl border border-white/10 shadow-2xl z-10 group-hover:border-white/30 transition-colors duration-500 bg-zinc-900"
+              className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl border border-white/10 shadow-2xl z-10 group-hover:border-white/30 transition-colors duration-500 bg-card"
             >
               <Image
                 src="/my-photo.jpg"
@@ -128,7 +128,7 @@ export default function AboutSection() {
 
             <div className="grid grid-cols-2 gap-6 pt-8 border-t border-white/10">
               <div className="flex items-start gap-4 group">
-                <div className="p-3 rounded-xl bg-zinc-900/80 border border-white/10 group-hover:border-[#5B2EFF]/50 transition-colors">
+                <div className="p-3 rounded-xl bg-card/80 border border-white/10 group-hover:border-[#5B2EFF]/50 transition-colors">
                   <Layout className="w-5 h-5 text-zinc-300" />
                 </div>
                 <div>

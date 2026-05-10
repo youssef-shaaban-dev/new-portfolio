@@ -72,7 +72,7 @@ export default function HeroSection({ ready }: { ready: boolean }) {
   return (
     <section
       ref={containerRef}
-      className="relative w-full min-h-screen bg-[#050505] flex items-center justify-center pt-24 pb-12 overflow-hidden px-4 md:px-12"
+      className="relative w-full min-h-screen bg-background flex items-center justify-center pt-24 pb-12 overflow-hidden px-4 md:px-12"
     >
       {/* Background Stars/Particles effect (simplified) */}
       <div className="absolute inset-0 z-0 opacity-40">
@@ -85,7 +85,7 @@ export default function HeroSection({ ready }: { ready: boolean }) {
       <div className="relative w-full max-w-6xl h-[70vh] md:h-[80vh] flex items-center justify-center z-10 mt-10 md:mt-0">
         
         {/* The main rounded image container */}
-        <div className="hero-image-container relative w-full h-full rounded-[2rem] md:rounded-[3rem] overflow-hidden bg-zinc-900 border border-white/5 shadow-2xl">
+        <div className="hero-image-container relative w-full h-full rounded-[2rem] md:rounded-[3rem] overflow-hidden bg-card border border-white/5 shadow-2xl">
           {/* Inner Image */}
           <div className="hero-image-bg absolute inset-0 w-full h-[120%] -top-[10%]">
              <Image 
@@ -95,7 +95,7 @@ export default function HeroSection({ ready }: { ready: boolean }) {
                 className="object-cover opacity-80"
                 priority
              />
-             <div className="absolute inset-0 bg-gradient-to-t from-[#050505]/90 via-transparent to-[#050505]/50" />
+             <div className="absolute inset-0 bg-gradient-to-t from-background/95 via-transparent to-background/50" />
           </div>
 
           {/* Social Icons Pill (Left Overlay) */}

@@ -53,7 +53,7 @@ export default function Navbar({ visible }: { visible: boolean }) {
         ref={navRef}
         className={`fixed top-0 left-0 w-full z-[100] transition-all duration-500 opacity-0 ${
           scrolled
-            ? "bg-black/70 backdrop-blur-xl border-b border-white/5 py-3"
+            ? "bg-background/70 backdrop-blur-xl border-b border-white/5 py-3"
             : "bg-transparent py-5"
         }`}
       >
@@ -145,7 +145,7 @@ export default function Navbar({ visible }: { visible: boolean }) {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed inset-0 z-[99] bg-black/95 backdrop-blur-2xl transition-all duration-500 flex flex-col items-center justify-center gap-8 ${
+        className={`fixed inset-0 z-[99] bg-background/95 backdrop-blur-2xl transition-all duration-500 flex flex-col items-center justify-center gap-8 ${
           menuOpen
             ? "opacity-100 pointer-events-auto"
             : "opacity-0 pointer-events-none"

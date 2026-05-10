@@ -30,12 +30,12 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
-      <body className="bg-[#0a0a0a] overflow-x-hidden text-white">
+      <body className="bg-background overflow-x-hidden text-white">
         {/* Persistent Particle Layer */}
         <ParticleBackground />
 
         {/* Global Vignette */}
-        <div className="fixed inset-0 z-[5] pointer-events-none bg-[radial-gradient(circle_at_center,transparent_0%,rgba(0,0,0,0.6)_100%)]" />
+        <div className="fixed inset-0 z-[5] pointer-events-none bg-[radial-gradient(circle_at_center,transparent_0%,rgba(3,7,17,0.4)_100%)]" />
 
         <SmoothScroll>{children}</SmoothScroll>
       </body>

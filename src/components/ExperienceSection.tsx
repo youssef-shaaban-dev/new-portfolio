@@ -99,7 +99,7 @@ export default function ExperienceSection() {
   return (
     <section
       ref={containerRef}
-      className="w-full py-28 md:py-40 px-6 md:px-12 bg-[#070707] relative overflow-hidden"
+      className="w-full py-28 md:py-40 px-6 md:px-12 bg-background relative overflow-hidden"
     >
       {/* Ambient glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-violet-600/5 blur-[200px] pointer-events-none" />
